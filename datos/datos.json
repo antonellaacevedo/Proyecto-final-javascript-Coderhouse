@@ -1,0 +1,66 @@
+[
+    
+    {
+        "id": 1,
+        "modelo": "Kodak Ektar 100",
+        "precio": 5798,
+        "imagen": "imagenes/producto1.png",
+        "cantidad": 1
+    },
+    
+    {
+        "id": 2,
+        "modelo": "Kodak tri-X 400",
+        "precio": 4699,
+        "imagen": "imagenes/producto2.jpg",
+        "cantidad": 1
+    
+    },
+    {
+        "id": 3,
+        "modelo": "Kodak Portra 400",
+        "precio": 5799,
+        "imagen": "imagenes/producto3.jpg",
+        "cantidad": 1
+    },
+    
+    {
+        "id": 4,
+        "modelo": "Kodak Vision 3",
+        "precio": 3490,
+        "imagen": "imagenes/producto4.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 5,
+        "modelo": "Kodak T-max 400",
+        "precio": 6788,
+        "imagen": "imagenes/producto5.png",
+        "cantidad": 1
+    },
+
+    {
+        "id": 6,
+        "modelo": "Kodak Portra 160",
+        "precio": 9678,
+        "imagen": "imagenes/producto6.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 7,
+        "modelo": "Kodak Ultramax",
+        "precio": 4500,
+        "imagen": "imagenes/producto7.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "modelo": "Kodak Colorplus",
+        "precio": 5775,
+        "imagen": "imagenes/producto8.jpg",
+        "cantidad": 1
+    }
+    
+    ]

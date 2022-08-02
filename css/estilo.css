@@ -1,0 +1,336 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Encabezado{
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../imagenes/vintage.jpg);
+}
+
+.Encabezado h1{
+    position: absolute;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Joan', serif;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(204, 21, 8), 0px 0px 15px red, 0px 0px 15px red;
+    font-size:45px;
+    padding-top: 70px ;
+    padding-left: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+
+.navbar-brand img{
+    width: 100px;
+    margin-bottom: 0px;
+    object-fit: cover;
+    
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+
+div.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+div.producto{
+    color: black;
+}
+.producto h3{
+    color: white;
+    font-weight: 100;
+}
+
+.precioProducto{
+    color: white;
+}
+
+#productos{
+    background-color: #2E3C50;
+}
+div.producto{
+    background-color: #010307;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    height: 800px;
+}
+
+
+.producto {
+    max-width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3)
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.boton-eliminar:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+
+/* botones de carrito*/
+.btn-dark{
+   
+    width: 100px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.boton{
+    height: 70px;
+}
+#boton-carrito{
+    background-color: #4A88F4;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#boton-carrito:hover{
+    background-color: darkkhaki;
+}
+
+ #vaciar-carrito{
+   
+    font-size: 14px;
+    width: 120px;
+    padding-left: 0px 3px 0px 3px;
+
+ }
+ #vaciar-carrito:hover {
+    cursor: pointer;
+    background-color: red;
+}
+#finalizar-compra{
+    font-size: 14px;
+    width: 150px;
+    padding-left: 0px 3px 0px 3px;
+}
+#finalizar-compra:hover{
+    background-color: #561367;
+}
+
+
+.boton-eliminar{
+    padding: 3px 8px 3px 8px;
+
+}
+
+/*PÁGINA DE CONTACTOS, formulario*/
+
+.formulario {
+    padding-bottom: 50px;
+}
+
+form {
+    width: 50%;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #82E0AA;
+    padding-bottom: 50px; }
+
+ 
+form div {
+    padding: 1rem; }
+
+label {
+    font-size: 15px;
+    width: 100%;
+    color: black;
+    font-family: "Prata", sans-serif; }
+
+textarea {
+    resize: vertical;
+    max-height: 100px;
+    min-height: 100px;}
+
+div.igual1 {
+    margin-left:auto;
+    margin-right: auto;}
+
+.boton {
+    width: 200px; }
+
+input, textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 1px solid  black;
+    background: none;
+    padding-left: 0px;
+    font-size: 15px;
+    font-family: "Prata", sans-serif; }
+
+input[type="submit"] {
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    border: none; }
+
+
+input[type="submit"]:hover {
+    background: #4A88F4; }
+
+#resultado{
+    color: white;
+    font-size: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+/*CARRUSEL*/
+
+.carousel{
+    padding-top: 20px;
+}
+
+.carousel-caption p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.carousel-caption h5{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*MODAL*/
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+
+.modal-carrito h3 {
+    color: rgb(7, 17, 50);
+    padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: royalblue;
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+    background-color: #010307;
+    padding: 2px 5px 2px 5px;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+}
+
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.titulobajo{
+    text-align:center;
+    font-size: 35px;
+    color:wheat;
+    text-shadow: 0px 20px 20px rgb(14, 10, 9), 0px 10px 25px rgb(4, 1, 1), 10px 0px 25px rgb(4, 1, 1);
+}
+.productoEnCarrito p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid royalblue;
+}
+
+.Pago{
+    background-color: #030508;
+}
